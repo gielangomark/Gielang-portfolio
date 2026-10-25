@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Gielang Omar Khadavi - Junior Web Developer">
+    <title>Gielang Omar Khadavi | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loading-screen" aria-label="Memuat halaman">
+        <div class="loader-mark"><span></span><span></span><span></span></div>
+    </div>
+
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Kembali ke halaman utama">
+            <span class="brand-mark">&lt;/&gt;</span>
+            <span>GIELANG<span class="brand-dot">.</span></span>
+        </a>
+        <button class="menu-toggle" id="menuIcon" aria-label="Buka navigasi" aria-expanded="false">
+            <i class="bx bx-menu"></i>
+        </button>
+        <nav class="navlist" aria-label="Navigasi utama">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact" class="nav-contact">Let's talk <i class="bx bx-up-arrow-alt"></i></a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="home" class="hero section-wrap">
+            <div class="hero-copy reveal">
+                <p class="eyebrow"><span class="status-dot"></span> Available for collaboration</p>
+                <h1>Membangun pengalaman digital yang <span class="gradient-text">bermakna.</span></h1>
+                <p class="hero-description">Saya Gielang Omar Khadavi, junior web developer yang mengubah ide menjadi website dan sistem yang cepat, fungsional, dan mudah digunakan.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="button button-primary">Lihat project <i class="bx bx-right-arrow-alt"></i></a>
+                    <a href="https://github.com/gielangomark" target="_blank" rel="noopener" class="button button-ghost">GitHub <i class="bx bx-link-external"></i></a>
+                </div>
+                <div class="hero-stack">
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Node.js</span>
+                </div>
+            </div>
+            <div class="hero-visual reveal">
+                <div class="orb orb-one"></div><div class="orb orb-two"></div>
+                <div class="code-card">
+                    <div class="code-top"><span></span><span></span><span></span><small>gielang.js</small></div>
+                    <pre><code><em>const</em> developer = {
+  name: <b>"Gielang Omar"</b>,
+  role: <b>"Web Developer"</b>,
+  focus: [<b>"Frontend"</b>, <b>"Backend"</b>],
+  status: <b>"learning & building"</b>
+};</code></pre>
+                </div>
+                <div class="floating-chip"><i class="bx bx-code-alt"></i> clean code</div>
+            </div>
+        </section>
+
+        <section id="about" class="section-wrap section-block">
+            <div class="section-heading reveal"><p class="eyebrow">01 / about me</p><h2>Kenalan lebih dekat.</h2></div>
+            <div class="about-grid">
+                <div class="about-photo reveal">
+                    <img src="image/About me.jpeg" alt="Foto Gielang Omar Khadavi">
+                    <div class="photo-label"><span class="status-dot"></span> Jakarta, Indonesia</div>
+                </div>
+                <div class="about-content reveal">
+                    <p class="lead">Saya adalah junior web developer dari SMKN 40 Jakarta, jurusan Rekayasa Perangkat Lunak (RPL).</p>
+                    <p>Saya tertarik mengembangkan produk digital dari sisi front-end maupun back-end. Bagi saya, website yang baik bukan hanya terlihat menarik, tetapi juga memiliki struktur yang rapi, responsif, dan menyelesaikan kebutuhan penggunanya.</p>
+                    <a href="https://wa.me/6281382665679" target="_blank" rel="noopener" class="text-link">Hubungi saya <i class="bx bx-arrow-up-right"></i></a>
+                </div>
+            </div>
+            <div class="skills reveal">
+                <div class="skill-item"><div><span>HTML</span><b>80%</b></div><span class="skill-track"><i style="width:80%"></i></span></div>
+                <div class="skill-item"><div><span>JavaScript</span><b>80%</b></div><span class="skill-track"><i style="width:80%"></i></span></div>
+                <div class="skill-item"><div><span>PHP</span><b>60%</b></div><span class="skill-track"><i style="width:60%"></i></span></div>
+                <div class="skill-item"><div><span>CSS</span><b>40%</b></div><span class="skill-track"><i style="width:40%"></i></span></div>
+            </div>
+        </section>
+
+        <section id="services" class="section-wrap section-block">
+            <div class="section-heading reveal"><p class="eyebrow">02 / services</p><h2>Apa yang bisa saya kerjakan.</h2></div>
+            <div class="services-grid">
+                <article class="service-card reveal"><span class="card-number">01</span><i class="bx bx-desktop"></i><h3>Front-end Development</h3><p>Membuat interface yang responsif, interaktif, dan nyaman digunakan di berbagai perangkat.</p><span class="service-tech">HTML / CSS / JS</span></article>
+                <article class="service-card reveal"><span class="card-number">02</span><i class="bx bx-code-alt"></i><h3>Web Development</h3><p>Membangun website dan aplikasi web dengan struktur yang rapi serta fokus pada kebutuhan pengguna.</p><span class="service-tech">FULL-STACK</span></article>
+                <article class="service-card reveal"><span class="card-number">03</span><i class="bx bx-server"></i><h3>Back-end Development</h3><p>Mengembangkan server-side logic, database, dan API agar sistem berjalan aman dan efisien.</p><span class="service-tech">PHP / NODE.JS</span></article>
+            </div>
+        </section>
+
+        <section id="projects" class="section-wrap section-block projects-section">
+            <div class="section-heading reveal"><p class="eyebrow">03 / selected work</p><h2>Project yang pernah dibuat.</h2><p class="section-intro">Beberapa sistem dan aplikasi yang saya kembangkan. URL demo dan gambar preview dapat ditambahkan pada setiap card.</p></div>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-preview"><i class="bx bx-image-add"></i><span>Tambahkan foto preview</span></div>
+                    <div class="project-meta"><span>01 / NODE.JS</span><span>WEB APP</span></div>
+                    <h3>P4 Course</h3><p>Platform pembelajaran pemrograman dasar dengan materi interaktif untuk membantu pengguna memahami dunia coding.</p>
+                    <!-- Ganti href="#" dengan URL website saat sudah tersedia. -->
+                    <a href="#" class="project-link placeholder-link">Visit website <i class="bx bx-up-arrow-alt"></i></a>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-preview"><i class="bx bx-image-add"></i><span>Tambahkan foto preview</span></div>
+                    <div class="project-meta"><span>02 / PHP</span><span>SYSTEM</span></div>
+                    <h3>Perpustakaan</h3><p>Sistem pengelolaan buku, peminjaman, dan laporan dengan dukungan pencetakan laporan dalam format PDF.</p>
+                    <!-- Ganti href="#" dengan URL website saat sudah tersedia. -->
+                    <a href="#" class="project-link placeholder-link">Visit website <i class="bx bx-up-arrow-alt"></i></a>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-preview"><i class="bx bx-image-add"></i><span>Tambahkan foto preview</span></div>
+                    <div class="project-meta"><span>03 / PHP</span><span>SYSTEM</span></div>
+                    <h3>Absensi Siswa</h3><p>Sistem digital untuk mengelola data siswa, kehadiran, profil, serta pembuatan laporan absensi.</p>
+                    <!-- Ganti href="#" dengan URL website saat sudah tersedia. -->
+                    <a href="#" class="project-link placeholder-link">Visit website <i class="bx bx-up-arrow-alt"></i></a>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-preview"><i class="bx bx-image-add"></i><span>Tambahkan foto preview</span></div>
+                    <div class="project-meta"><span>04 / EJS</span><span>WEB APP</span></div>
+                    <h3>Hospital</h3><p>Aplikasi manajemen rumah sakit dengan struktur controller, model, routes, dan views untuk mengelola alur data aplikasi.</p>
+                    <!-- Ganti href="#" dengan URL website saat sudah tersedia. -->
+                    <a href="#" class="project-link placeholder-link">Visit website <i class="bx bx-up-arrow-alt"></i></a>
+                </article>
+                <article class="project-card reveal">
+                   <div class="project-preview"><img src="image/Indosmart.png" alt="Preview Indosmart"></div>
+                    <div class="project-meta"><span>05 / LARAVEL</span><span>INTERNAL APP</span></div>
+                    <h3>Medical Claim & Cuti</h3><p>Aplikasi berbasis Laravel untuk alur pengajuan medical claim dan cuti pada kebutuhan internal organisasi.</p>
+                    <!-- Ganti href="#" dengan URL website saat sudah tersedia. -->
+                    <a href="#" class="project-link placeholder-link">Visit website <i class="bx bx-up-arrow-alt"></i></a>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-preview"><img src="image/savebite.png" alt="Preview SaveBite"></div>
+                    <div class="project-meta"><span>06 / NEXT.JS</span><span>COLLABORATIVE APP</span></div>
+                    <h3>SaveBite</h3><p>Platform digital untuk membantu mengurangi food waste dengan mempertemukan penjual makanan surplus dan pembeli.</p>
+                    <a href="https://github.com/SaveBite" target="_blank" rel="noopener" class="project-link">Lihat GitHub SaveBite <i class="bx bxl-github"></i><i class="bx bx-up-arrow-alt"></i></a>
+                </article>
+            </div>
+            <a href="https://github.com/gielangomark" target="_blank" rel="noopener" class="all-projects">Lihat semua repository di GitHub <i class="bx bx-right-arrow-alt"></i></a>
+        </section>
+
+        <section id="education" class="section-wrap section-block education-section">
+            <div class="section-heading reveal"><p class="eyebrow">04 / education</p><h2>Perjalanan pendidikan.</h2></div>
+            <div class="timeline reveal">
+                <div class="timeline-item"><span class="timeline-year">2026 — Sekarang</span><div><h3>Universitas Ary Ginanjar</h3><p>Computer Science</p></div></div>
+                <div class="timeline-item"><span class="timeline-year">2023 — 2026</span><div><h3>SMKN 40 Jakarta</h3><p>Rekayasa Perangkat Lunak (RPL)</p></div></div>
+                <div class="timeline-item"><span class="timeline-year">2020 — 2023</span><div><h3>SMPN 97 Jakarta</h3><p>Pendidikan menengah pertama</p></div></div>
+                <div class="timeline-item"><span class="timeline-year">2014 — 2020</span><div><h3>SDN Utan Kayu 17 Pagi</h3><p>Pendidikan dasar</p></div></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-wrap reveal">
+            <div><p class="eyebrow">05 / contact</p><h2>Punya ide yang ingin diwujudkan?</h2><p>Mari ngobrol dan buat sesuatu yang keren bersama.</p></div>
+            <a href="mailto:gastoe7a@gmail.com" class="button button-primary">Kirim email <i class="bx bx-send"></i></a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top"><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>GIELANG<span class="brand-dot">.</span></span></a><p>Building digital experiences with curiosity.</p><div class="socials"><a href="https://github.com/gielangomark" target="_blank" rel="noopener" aria-label="GitHub"><i class="bx bxl-github"></i></a><a href="https://id.linkedin.com/in/gielang-omar-khadavi-a004772b4" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a><a href="https://www.instagram.com/gielangomrk/" target="_blank" rel="noopener" aria-label="Instagram"><i class="bx bxl-instagram"></i></a></div></div>
+        <div class="footer-bottom"><span>© 2024 Gielang Omar Khadavi</span><span>Designed & built with code</span></div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
