@@ -12,3 +12,5 @@ body:before{background-image:linear-gradient(rgba(255,138,61,.045) 1px,transpare
 .button-primary{background:#ff8a3d;color:#17100a}.button-primary:hover{box-shadow:0 10px 30px rgba(255,138,61,.25)}
 .project-preview{background:radial-gradient(circle at 70% 20%,rgba(183,243,74,.14),transparent 35%),var(--surface);border-color:rgba(183,243,74,.35)}
 .service-card:hover,.project-card:hover{border-color:rgba(183,243,74,.5)}
+.timeline-content{max-width:780px}.timeline-content>p:not(.experience-description){margin-top:2px}.experience-description{margin-top:18px;max-width:760px;line-height:1.8}
+.timeline-item{display:block}.timeline-item>.timeline-year{display:block;margin-bottom:12px}.timeline-item>.timeline-content{margin-left:0}.timeline-item>div:not(.timeline-content){margin-top:0}
